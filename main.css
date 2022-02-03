@@ -271,6 +271,7 @@ footer{
     z-index: 9;
     overflow-y: auto;
     overflow-x: hidden;
+    height: 780px;
 }
 
 
@@ -281,7 +282,6 @@ footer{
     border-end-end-radius: 14px;
     overflow-y: auto;
     overflow-x: hidden;
-    height: 780px;
   }
 
   .form-container input[type=text], .form-container input[type=password] {
