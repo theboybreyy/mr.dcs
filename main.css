@@ -363,8 +363,7 @@ footer{
   }
   
 
-/*
-  @media screen and (max-width: 992px){
+@media screen and (max-width: 992px){
     header{
         width: 100%;
         position: absolute;
@@ -599,8 +598,8 @@ footer{
 
 
   }
-*/
 
+/*
   @media screen and (min-width: 769px) and (max-width: 992px) {
       
     header{
@@ -862,6 +861,7 @@ footer{
   }*/
 
   /*Mobile*/
+/*
 
   @media screen and (max-width: 500px) {
         
@@ -1192,6 +1192,6 @@ footer{
       .checkboxes{
           padding: 10px 0px 10px  40px;
       }
-      
+      */
 
   }
