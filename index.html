@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/main.css">
+    <title>DCS Registration Portal</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="logo"><img src="/DCS im.png" alt="DCS Logo"  height="62" width="343">
+        
+
+        </div>
+       <nav>
+           <ul>
+               <li class="menu"><a href=""></a>
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="https://dcs.ug.edu.gh/undergraduate" target="_blank">About</a></li>
+                   <li><a href="https://t.me/+ebl9ys_1G5ZhNjA0" target="_blank">Join Group</a>
+                    </li>
+              </li>
+           </ul>
+       </nav>
+  </header>
+    </div>
+    
+    <div class="main display">
+        <div class="naya">
+            <div class="cards">
+                <p>DEPARTMENT OF COMPUTER SCIENCE</p>
+                <h2><strong>Manual Registration Portal</strong></h2>
+                <p>Click On The utton To Proceed</p>
+            </div>
+        </div>
+      <div class="levels" onclick="levels()">
+          <nav>
+              <ul id="sec_nav">
+                  <li><a class="open-button" href="#">Level 100</a>
+                  <li><a class="open-button" href="#">Level 200</a></li>
+                  <li><a href="#">Level 300</a></li>
+                  <li><a href="#">Level 400</a></li>
+              </ul>
+          </nav>
+      </div>
+
+      <button class="open-button" onclick="openForm()">REGISTER NOW</button>
+    
+      <div class="form-popup" id="myForm">
+        <form action="" name="contact" data-netlify-recaptcha="true" method="POST" data-netlify="true" class="form-container">
+            <p class="title"><span>DEPARTMENT OF COMPUTER SCIENCE REGISTRATION FORM</span></p> <br>
+      
+            <input type="hidden" name="form-name" value="contact">
+          <label for="name"><b>Full Name</b></label>
+          <input type="text" placeholder="Enter Student Full Name" name="Student Name" required>
+
+          <label for="Student-ID"><b>STUDENT ID</b></label>
+          <input type="password" maxlength ="8" minlength="8" placeholder="Enter Valid Student ID - XXXXXXXX" name="Student-ID" required>
+
+          <label for="email"><b>Email </b></label>
+          <input type="text" placeholder="username@st.ug.edu.gh" name="email" required>
+
+          <br>
+          <label for="number"><b>Telephone</b></label>
+          <input type="text"  placeholder="123-45-678" name="psw" required>
+          <br>
+          <label for="psw"><b>Select Level</b></label><br>
+          <div class="checkboxes">
+            <input type="radio" class="l100" name="psw" value="Level 100" required>
+            <label for="level 100" >Level 100</label> <br>
+            <input type="radio"  name="psw" value="Level 200"  required>
+            <label for="level 200">Level 200</label> <br>
+            <input type="radio"  name="psw" value="Level 300" required>
+            <label for="level 300">Level 300</label> <br>
+            <input type="radio"  name="psw" value="Level 400" required>
+            <label for="level 400">Level 400</label> <br>
+            <br><br>
+          </div>
+
+          
+          <label for="Programme" class="web"><b>Programme :</b>
+          <select style="width: 572px; float: center; height: 35px; outline: 0; border: 0%; font-weight: bold;" name ="Programme" id="" required>
+              <option value="Information Technology">BSc. ACTUARIAL SCIENCE</option>
+              <option value="Allied Science">BSc. ALLIED HEALTH</option>
+              <option value="Mathematical Science">BSc. MATHEMATICAL SCIENCE</option>
+              <option value="Information Technology">BSc. INFORMATION TECHNOLOGY</option>
+              <option value="Public Health">BSc. PHYSICAL SCIENCE</option>
+          </select>
+          </label>
+          
+          <label for="Programme" class="mobile-programme"><b>Programme :</b>
+          <select style="width: 310px; float: center; height: 35px; outline: 0; padding-left: 5px; border: 0%; font-weight: bold;" name ="Programme" id="" required>
+              <option value="Information Technology">BSc. ACTUARIAL SCIENCE</option>
+              <option value="Allied Science">BSc. ALLIED HEALTH</option>
+              <option value="Mathematical Science">BSc. MATHEMATICAL SCIENCE</option>
+              <option value="Information Technology">BSc. INFORMATION TECHNOLOGY</option>
+              <option value="Public Health">BSc. PHYSICAL SCIENCE</option>
+          </select>
+          </label>
+          <br>
+         <div class="buttons">
+            <button type="submit" class="btn">Submit</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+         </div>
+        </form>
+      </div>
+      
+
+     
+    <script src="/script.js"></script>
+</body>
+</html> 
