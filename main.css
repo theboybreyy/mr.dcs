@@ -363,7 +363,7 @@ footer{
   }
   
 
-
+/*
   @media screen and (max-width: 992px){
     header{
         width: 100%;
@@ -381,7 +381,7 @@ footer{
     }
 
     .logo img{
-        width: 70%;
+        width: 65%;
     }
     nav ul{
         display: none;
@@ -408,7 +408,7 @@ footer{
     }
 
     .card{
-        width: 650px;
+        width: 700px;
         justify-content: center;
         text-align: center;
         position: absolute;
@@ -599,6 +599,7 @@ footer{
 
 
   }
+*/
 
   @media screen and (min-width: 769px) and (max-width: 992px) {
       
