@@ -270,7 +270,6 @@ footer{
     left: auto;
     z-index: 9;
     overflow-y: auto;
-    overflow-x: hidden;
     height: 800px;
 }
 
@@ -280,8 +279,6 @@ footer{
     padding: 15px;
     background-color: white;
     border-end-end-radius: 14px;
-    overflow-y: auto;
-    overflow-x: hidden;
   }
 
   .form-container input[type=text], .form-container input[type=password] {
