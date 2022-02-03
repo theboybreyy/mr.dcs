@@ -269,6 +269,7 @@ footer{
     right: 8%;
     left: auto;
     z-index: 9;
+    overflow: visible;
 }
 
 
