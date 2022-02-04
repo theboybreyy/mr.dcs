@@ -5,7 +5,3 @@ function openForm() {
   function closeForm() {
     document.getElementById("myForm").style.display = "none";
   }
-
-function levels(){
-  document.getElementById("sec_nav").style.display ="block";
-}
