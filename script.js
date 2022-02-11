@@ -7,10 +7,12 @@ function openForm() {
   }
 
 
-  /*Added Some GSAP Animation*/
+  /*Added Some GSAP Animation*
   const el = document.querySelector("#module");
 
-el.addEventListener("onclick", (e) => {
+el.addEventListener("mousemove", (e) => {
   el.style.backgroundPositionX = -e.offsetX + "px";
   el.style.backgroundPositionY = -e.offsetY + "px";
 });
+*/
+ AOS.init();

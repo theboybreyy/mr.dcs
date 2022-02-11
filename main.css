@@ -58,6 +58,17 @@ body{
     top: 0;
 }
 
+@keyframes zoom {
+    0%{
+    background: position 0;}
+
+    25%{    }
+
+    75%{    }
+
+    100%{    }
+    
+}
 
 header{
     margin: 0;
