@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--Head Tag of the website-->
+    <!--Head Tag-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
 </head>
 <body>
   <header>
-      <!--This is the container for the main nav and header-->
+      <!--Navbar Content-->
     <div class="container">
         <div class="logo"><img src="/DCS im.png" alt="DCS Logo"  height="62" width="343">
         
@@ -49,24 +49,14 @@
         </div>
         
         <!--This is the links of each level to land the users into thier various form space-->
-      <div class="levels" onclick="levels()">
-          <nav>
-              <ul id="sec_nav">
-                  <li><a class="open-button" href="#">Level 100</a>
-                  <li><a class="open-button" href="#">Level 200</a></li>
-                  <li><a href="#">Level 300</a></li>
-                  <li><a href="#">Level 400</a></li>
-              </ul>
-          </nav>
-      </div>
+    
         
         <!--This is the button that brings the form into activeness when clicked-->
 
       <button class="open-button" onclick="openForm()">REGISTER NOW</button>
     
         
-        <!--This is the Form of the website to the inputs from the users'
--->
+        <!--Form -->
       <div class="form-popup" id="myForm">
         <form action="POST" name="contact" data-netlify="true" class="form-container">
             <p class="title"><span>DEPARTMENT OF COMPUTER SCIENCE REGISTRATION FORM</span></p> <br>
@@ -100,15 +90,17 @@
 
           
           <label for="Programme" class="web"><b>Programme :</b>
-          <select style="width: 572px; float: center; height: 35px; outline: 0; border: 0%; font-weight: bold;" name ="Programme" id="" required>
-              <option value="Information Technology">BSc. ACTUARIAL SCIENCE</option>
-              <option value="Allied Science">BSc. ALLIED HEALTH</option>
-              <option value="Mathematical Science">BSc. COMPUTER SCIENCE</option>
-              <option value="Information Technology">BSc. INFORMATION TECHNOLOGY</option>
-              <option value="Public Health">BSc. PHYSICAL SCIENCE</option>
-          </select>
-          </label>
-          
+            <select style="width: 572px; float: center; height: 35px; outline: 0; border: 0%; font-weight: bold;" name ="Programme" id="" required>
+                <option value="Information Technology">BSc. ACTUARIAL SCIENCE</option>
+                <option value="Allied Science">BSc. ALLIED HEALTH</option>
+                <option value="Mathematical Science">BSc. COMPUTER SCIENCE</option>
+                <option value="Information Technology">BSc. INFORMATION TECHNOLOGY</option>
+                <option value="Public Health">BSc. PHYSICAL SCIENCE</option>
+            </select>
+        </label>
+        
+        <!--Programmes option for Mobile -->
+
           <label for="Programme" class="mobile-programme"><b>Programme :</b>
           <select style="width: 310px; float: center; height: 35px; outline: 0; padding-left: 5px; border: 0%; font-weight: bold;" name ="Programme" id="" required>
               <option value="Information Technology">BSc. ACTUARIAL SCIENCE</option>
@@ -127,6 +119,8 @@
       </div>
         
         <!--This is the end of the website form -->
+
+        <!--Update for the website on the way..-->
       
 
         <!--This is the JavaScript External file link-->
