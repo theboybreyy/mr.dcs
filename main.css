@@ -58,6 +58,12 @@ body{
     top: 0;
 }
 
+.module:hover{
+background-position-y: 0.4rem;
+background-position-x: -0.25rem !important;
+transition: all .5s ease;
+}
+
 @keyframes zoom {
     0%{
     background: position 0;}
@@ -329,6 +335,11 @@ footer{
   }
     
 
+  form input:focus-within{
+    height: 6rem;
+    font-size: 1.1rem;
+  }
+
   .web{
       display: block;
   }
@@ -364,7 +375,8 @@ footer{
       transform: scale(.95);
       transition: ease-in-out;
       color: black;
-  }
+      
+    }
 
   .title span{
     display: block;
