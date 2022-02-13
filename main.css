@@ -1,4 +1,3 @@
-/*Color Palette */
 :root{
     --white: #fff;
     --black: #131010;
@@ -40,8 +39,7 @@
     margin: 0;
     font-family: "Lato";
 }
- 
-/*The body elements */
+
 body{
     background-image: url(/loginbackground1.jpg);
     width: 100%;
@@ -336,11 +334,6 @@ footer{
 
   }
     
-
-  form input:focus-within{
-    height: 6rem;
-    font-size: 1.1rem;
-  }
 
   .web{
       display: block;
