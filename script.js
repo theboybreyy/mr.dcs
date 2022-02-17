@@ -11,8 +11,8 @@ function openForm() {
   const el = document.querySelector("#module");
 
 el.addEventListener("mousemove", (e) => {
-  el.style.backgroundPositionX = -0.4 + "rem";
-  el.style.backgroundPositionZ = 0. + "rem";
+  el.style.backgroundPositionX = -e.OffsetX + "px";
+  el.style.backgroundPositionY = -e.OffsetY + "px";
 });
 
 
