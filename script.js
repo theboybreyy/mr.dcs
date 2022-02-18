@@ -1,5 +1,5 @@
 /*This is a very long line commit history to scare people k3k3
-Dont rush life is not a race God first and */
+Dont rush life is not a race God first an */
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
