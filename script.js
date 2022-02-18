@@ -41,13 +41,13 @@ el.addEventListener("mousemove", (e) => {
    button[1].innerHTML = "Next";
    button[1].style.background= "#FF9149";
 
-  /* if(currentFormItem == 0){
+  if(currentFormItem == 0){
      button[0].addEventListener("click", closeForm)
    }
-*/
    steps[0].style.background ="#153d6f";
    steps[0].style.border ="#BD9C6C";
  }
+
 
  //Next Button
  button[1].addEventListener("click", () => {
@@ -57,7 +57,7 @@ el.addEventListener("mousemove", (e) => {
    
 
    if( currentFormItem > 0 && currentFormItem < 4){
-    button[0].innerHTML = "Previous";
+    button[0].innerHTML = "Abort";
     button[1].innerHTML = "Next";
 
     
