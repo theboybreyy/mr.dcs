@@ -18,6 +18,14 @@
     <title>DCS REGISTRATION PORTAL</title>
 </head>
 <body class="module" id="module">
+
+  <!--Website Preloader-->
+  <div class="preloader">
+    <div class="spinner"></div>
+  </div>
+
+
+
   <header>
       <!--Navbar Content-->
     <div class="container">
@@ -61,62 +69,120 @@
         
         <!--Form -->
       <div class="form-popup" id="myForm">
-        <form action="POST" name="contact" data-netlify="true" class="form-container">
+        <form action="POST" name="contact" data-netlify="true" class="form-container" autofill="off">
             <p class="title"><span>DEPARTMENT OF COMPUTER SCIENCE REGISTRATION FORM</span></p> <br>
-      
-            <input type="hidden" name="form-name" value="contact">
-          <label for="name"><b>Full Name</b></label>
-          <input type="text" placeholder="Enter Student Full Name" name="Student Name" required>
 
-          <label for="Student-ID"><b>STUDENT ID</b></label>
-          <input type="password" maxlength ="8" minlength="8" placeholder="Enter Valid Student ID - XXXXXXXX" name="Student-ID" required>
+            <div class="steps">
+              <p class="step">1</p>
+              <p class="step">2</p>
+              <p class="step">3</p>
+              <p class="step">4</p>
+            </div>
 
-          <label for=" Student Email"><b>Email </b></label>
-          <input type="text" placeholder="username@st.ug.edu.gh" name="Student Email" required>
 
-          <br>
-          <label for="number"><b>Telephone</b></label>
-          <input type="text"  placeholder="123-45-678" name="Telephone" required>
-          <br>
-          <label for="Level"><b>Select Level</b></label><br>
-          <div class="checkboxes">
-            <input type="radio" class="l100" name="Level" value="Level 100" required>
-            <label for="level 100" >Level 100</label> <br>
-            <input type="radio"  name="Level" value="Level 200"  required>
-            <label for="level 200">Level 200</label> <br>
-            <input type="radio"  name="Level" value="Level 300" required>
-            <label for="level 300">Level 300</label> <br>
-            <input type="radio"  name="Level" value="Level 400" required>
-            <label for="level 400">Level 400</label> <br>
-            <br><br>
+
+            <div class="form-item">
+              <input type="hidden" name="form-name" value="contact">
+              <label for="name"><b>First Name</b></label>
+              <input type="text" placeholder="First Name(s)" name="First Name" required>
+              
+              <input type="hidden" name="form-name" value="contact">
+              <label for="name"><b>Other Name(s)</b></label>
+              <input type="text" placeholder="Other Name" name="First Name" required>
+
+              <input type="hidden" name="form-name" value="contact">
+              <label for="name"><b>Last Name</b></label>
+              <input type="text" placeholder="Last Name" name="First Name" required>
+
+          </div>
+            
+          <div class="form-item">
+              <label for="Student-ID"><b>STUDENT ID</b></label>
+            <input type="password" maxlength ="8" minlength="8" placeholder="Enter Valid Student ID - XXXXXXXX" name="Student-ID" required>
+
+            <label for=" Student Email"><b>Email </b></label>
+            <input type="text" placeholder="username@st.ug.edu.gh" name="Student Email" required>
+
+            <br>
+            <label for="number"><b>Telephone</b></label>
+            <input type="text"  placeholder="123-45-678" name="Telephone" required>
           </div>
 
-          
-          <label for="Programme" class="web"><b>Programme :</b>
-            <select style="width: 572px; float: center; height: 35px; outline: 0; border: 0%; font-weight: bold;" name ="Programme" id="" required>
-                <option value="Information Technology">BSc. ACTUARIAL SCIENCE</option>
-                <option value="Allied Science">BSc. ALLIED HEALTH</option>
-                <option value="Mathematical Science">BSc. COMPUTER SCIENCE</option>
-                <option value="Information Technology">BSc. INFORMATION TECHNOLOGY</option>
-                <option value="Public Health">BSc. PHYSICAL SCIENCE</option>
-            </select>
-        </label>
-        
-        <!--Programmes option for Mobile -->
+          <br>
 
-          <label for="Programme" class="mobile-programme"><b>Programme :</b>
-          <select style="width: 310px; float: center; height: 35px; outline: 0; padding-left: 5px; border: 0%; font-weight: bold;" name ="Programme" id="" required>
-              <option value="Information Technology">BSc. ACTUARIAL SCIENCE</option>
-              <option value="Allied Science">BSc. ALLIED HEALTH</option>
-              <option value="Mathematical Science">BSc. COMPUTER SCIENCE</option>
-              <option value="Information Technology">BSc. INFORMATION TECHNOLOGY</option>
-              <option value="Public Health">BSc. PHYSICAL SCIENCE</option>
-          </select>
+          <div class="form-item">
+                <label for="Level"><b>Select Level</b></label><br>
+              <div class="checkboxes">
+                <input type="radio" class="l100" name="Level" value="Level 100" required>
+                <label for="level 100" >Level 100</label> <br>
+                <input type="radio"  name="Level" value="Level 200"  required>
+                <label for="level 200">Level 200</label> <br>
+                <input type="radio"  name="Level" value="Level 300" required>
+                <label for="level 300">Level 300</label> <br>
+                <input type="radio"  name="Level" value="Level 400" required>
+                <label for="level 400">Level 400</label> <br>
+                <br><br>
+                </div>
+          
+
+          
+                <label for="Programme" class="web"><b>Programme :</b>
+                  <select style="width: 572px; float: center; height: 35px; outline: 0; border: 0%; font-weight: bold;" name ="Programme" id="" required>
+                      <option value="Information Technology">BSc. ACTUARIAL SCIENCE</option>
+                      <option value="Allied Science">BSc. ALLIED HEALTH</option>
+                      <option value="Mathematical Science">BSc. COMPUTER SCIENCE</option>
+                      <option value="Information Technology">BSc. INFORMATION TECHNOLOGY</option>
+                      <option value="Public Health">BSc. PHYSICAL SCIENCE</option>
+                  </select>
+                </label>
+          
+                <!--Programmes option for Mobile -->
+
+                <label for="Programme" class="mobile-programme"><b>Programme :</b>
+                <select style="width: 310px; float: center; height: 35px; outline: 0; padding-left: 5px; border: 0%; font-weight: bold;" name ="Programme" id="" required>
+                    <option value="Information Technology">BSc. ACTUARIAL SCIENCE</option>
+                    <option value="Allied Science">BSc. ALLIED HEALTH</option>
+                    <option value="Mathematical Science">BSc. COMPUTER SCIENCE</option>
+                    <option value="Information Technology">BSc. INFORMATION TECHNOLOGY</option>
+                    <option value="Public Health">BSc. PHYSICAL SCIENCE</option>
+                </select>
+                </label>
+                <br>
+          </div>
+
+         <br>
+
+         <div class="form-item">
+
+          <label for="Programme" class="web"><b>Version Control System:</b>
+            <select style="width: 469px; float: center; height: 35px; outline: 0; border: 0s; outline: 0; font-weight: bold;" name ="Version Control System" id="" required >
+                <option value="GitHub">GitHub</option>
+                <option value="Behance">Behance</option>
+                <option value="Dribble">Dribble</option>
+                <option value="Git Lab">Git Lab</option>
+                <option value="Stack Overflow">Stack Overflow</option>
+            </select>
+            <br>
           </label>
           <br>
+
+          <label for=" Username"><b>Enter Username Below</b></label>
+          <input type="text" placeholder= "@username" name="Student Email" required>
+
+
+          <label for="Level"><b>Would you like to take Souvenirs from the department?</b></label><br>
+          <div class="checkboxes">
+            <input type="radio" class="Souvenirs" name="Level" value="Yes" required>
+            <label for="Souvenirs" >Yes</label> <br>
+            <input type="radio"  name="Level" value="No"  required>
+            <label for="No">No</label> <br>
+            <br><br>
+            </div>
+
+         </div>
          <div class="buttons">
-            <button type="submit" class="btn">Submit</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+           <button type="button" class="btn cancel btn-primary">Cancel</button>
+           <button type="button" class="btn btn-primary">Submit</button>
          </div>
         </form>
       </div>

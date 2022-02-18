@@ -166,7 +166,7 @@ li:hover{
 }
 
 .container li:focus-within{
-    border-bottom: 1px solid var(--black);
+    border-bottom: 2px solid var(--black);
 }
 
 .tab{
@@ -176,7 +176,7 @@ li:hover{
     margin-left: 13.5rem ;
     height: 35px;
     cursor: pointer;
-    border-radius: 15px  0 15px 15px  ;
+    border-radius: 0 15px 0 15px;
     width: 90px;
     border:  solid 2px var(--brown);
     background: var(--ug);
@@ -187,7 +187,15 @@ li:hover{
     font-weight: 400;
 }
 
+.tab:hover{
+    opacity: .95;
+    border-radius: 0 15px 15px 15px;
 
+}
+
+.tab:focus-within{
+    border-radius: 0 15px 0 15px;
+}
 
 .main{
 
@@ -334,19 +342,23 @@ footer{
   .form-popup {
     display: none;
     position: fixed;
-    bottom: 17%;
-    top: 10%;
-    right: 8%;
-    left: auto;
+    bottom: 0;
+    top: 12rem;
+    right: 0;
+    left: 15rem;
     z-index: 9;
+    margin: auto;
     overflow-y: auto;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
     height: 800px;
 }
 
 
 .form-container {
     max-width: 750px;
-    padding: 15px;
+    padding: 2rem;
     background-color: white;
     border-end-end-radius: 14px;
   }
@@ -433,6 +445,102 @@ footer{
       padding: 10px 0px 10px  40px;
   }
   
+
+/*Preloader Effect*/
+.preloader{
+    height: 100%;
+    width: 100%;
+    background: var(--gray);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.spinner
+{
+    height: 2rem;
+    width: 2rem;
+    border: 3px solid var(--white);
+    border-top: 3px solid var(--ug);
+    border-right: 3px solid var(--ug );
+    border-bottom: 3px solid var(--brown);
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: rotate 1s infinite ease-in-out;
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+   
+}
+
+
+button[type = submit]{
+    display: none;
+}
+
+/*Form Update*/
+
+.steps{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    border-bottom: 1px solid #cfd2d4;
+}
+
+.steps p{
+    background: #cfd2d4;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.steps p:focus-within{
+    border: var(--brown) solid 2px !important;
+}
+
+form{
+    overflow: hidden !important;
+}
+
+.form-item{
+    margin: 1.5rem 0;
+    display: none;
+    animation: slide-in .5s ease;
+}
+
+@keyframes slide-in {
+    0%{
+        transform: translateX(50rem);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+
+.form-item input{
+    padding: 8px;
+  
+}
+
+
+/*Media Query*/
 
 @media screen and (max-width: 992px){
     header{
