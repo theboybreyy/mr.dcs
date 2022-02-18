@@ -1,4 +1,4 @@
-/*This is a very long line commit histor to scare people k3k3
+/*This is a very long line commit histor to scare peole k3k3
 Dont rush life is not a race God first an*/
 function openForm() {
     document.getElementById("myForm").style.display = "block";
