@@ -1,5 +1,5 @@
 /*This is a very long line commi
-Dont rush life is not a race God first an*/
+Dont rush life is not a race God first a*/
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
