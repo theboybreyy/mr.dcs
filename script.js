@@ -1,4 +1,4 @@
-/*This is a very */
+
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
