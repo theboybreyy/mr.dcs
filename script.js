@@ -68,13 +68,25 @@ el.addEventListener("mousemove", (e) => {
     if(currentFormItem == 3){
       button[1].innerHTML = "Submit"
     }
+
     
   }else{
     if (currentFormItem > 3)
     {
-    alert("Form Submitted Successfully")
+    alert("Form Submitted Successfully");
   } }
 })
+
+let formContainer = document.querySelector("form-container");
+if(currentFormItem > 3 && button[1].addEventListener("click", () =>{
+  formContainer.style.display = "none";
+}
+))
+
+while(currentFormItem > 3){
+  currentFormItem.style.display = "none";
+}
+
 
 
 //Previous button
