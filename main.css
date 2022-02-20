@@ -58,7 +58,6 @@ body{
     position: fixed;
     overflow: none;
     object-fit: cover;
-    vertical-align: middle;
     background-position: 50% 50%;
     /*animation: zoom 5s infinite alternate;*/
     left: 0;
@@ -611,7 +610,7 @@ form{
         }
     }
 
-    .container nav:hover{}
+
 
 
     ul{
