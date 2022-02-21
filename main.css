@@ -740,11 +740,14 @@ form{
         }
 
         .form-container{
-            max-width: 500px;
+            max-width: 600px;
             border-radius:  0 0 14px 14px;
             z-index: 1111;
             position: relative;
-            top: 5.5rem;
+            top: 6rem;
+            height: 615px;
+            padding: 1rem;
+            overflow-y: visible;
 
         }
 
