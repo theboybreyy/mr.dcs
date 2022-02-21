@@ -115,3 +115,11 @@ button[0].addEventListener("click",  () => {
  steps[0].addEventListener("click", () =>{
    formItems[0].style.display = "block";
  }) 
+
+
+ //Open Menu 
+
+ function openMenu(){
+   document.querySelector("nav").style.display = "block";
+ }
+

@@ -585,7 +585,6 @@ form{
 
     .container nav{
         position: relative;
-        display: inline-block;
         padding: 10px;
         margin:  0rem 1rem 1rem;
         left: 65%;
@@ -598,6 +597,7 @@ form{
         justify-content: center;
         animation: pop-down 500 vertical finite;
         z-index: 2;
+        display: none;
     }
 
     @keyframes pop-down {
@@ -623,6 +623,8 @@ form{
         left: 3rem;
         right: 0%;
         top: 5rem;
+        font-size: small;
+        font-weight: bold;
     }
 
     .container nav ul li a{
@@ -632,8 +634,9 @@ form{
     li:hover{
         background: var(--white);
         border-bottom: 1px solid var(--black);
-        width: 20vw;
+        width: 25vw;
         text-align: center;
+        font-size: small;
     }
 
 
@@ -645,8 +648,10 @@ form{
         width: auto;
     }
 
+
+
     .tab{
-        left: 1rem;
+        left: 10%;
         top: 0%;
         overflow: visible;
         z-index: 3;
@@ -670,7 +675,87 @@ form{
         border-radius:  0 15px 0 15px;
     }
 
+    .main, .naya .cards{
+        
+        margin: auto;
+        top: 12rem;
+        left: 0;
+        right:0;
+        bottom: 30%;
+        opacity: .89s;
+        height: 180px;
+        justify-content: center;
+        align-items: center;
+        border: 2px;
+        border-end-end-radius: 10px;
+        width: 300px; 
+        position: fixed;
+        padding: 1rem;
 
+    }
+
+    .naya .cards :first{
+        font-weight: 300;
+        font-size: small;
+        text-align: center;
+    }
+
+     *p, h2{
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+        font-size: medium;
+        }
+
+        .open-button{
+            background: var(--orange) ;
+            color: black;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            opacity: .85;
+            border: none;
+            right: 0;
+            left: 0;
+            top: 85%;
+            bottom: -5.5rem;
+            margin: auto;
+            width: 250px;
+            height: 50px;
+
+        }
+
+        .form-popup{
+            display: none;
+            position: absolute;
+            top: 30%;
+            left: 2%;
+            right: 2%;
+            bottom: 0%;
+            margin: auto;
+            overflow-y: auto;
+            justify-content: center;
+
+        }
+
+        .form-container{
+            max-width: 500px;
+            border-radius:  0 0 14px 14px;
+            z-index: 1111;
+            position: relative;
+            top: 5.5rem;
+
+        }
+
+        .title span{
+            text-align: center;
+            font-size: medium;
+        }
+
+        .checkboxes{
+            padding: 5px 0 5px 20px;
+        }
 
 
 
