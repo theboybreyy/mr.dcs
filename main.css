@@ -567,6 +567,11 @@ form{
         font-family: "Lato";
     }
    
+
+   body{
+       background-position: fixed;
+        }
+
     header{
        margin-left: .5rem;
        margin-right: .5rem;
