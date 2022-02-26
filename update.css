@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@300&family=Playfair+Display:ital,wght@0,400;0,500;1,600&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap');
+
+:root{
+    --white: #fff;
+    --black: #131010;
+    --grey: #fff;
+    --blue: #1E9FF2;
+    --indigo: #6610F2;
+    --purple: #6F42C1;
+    --pink: #E83E8C;
+    --red: #FF4961;
+    --orange: #FF9149;
+    --yellow: #FFC107;
+    --green: #28D094;
+    --brown: #BD9C6C;
+    --teal: #20C997;
+    --cyan: #666EE8;
+    --white: #FFFFFF;
+    --gray: #6B6F82;
+    --gray-dark: #464855;
+    --primary: #666EE8;
+    --secondary: #6B6F82;
+    --success: #28D094;
+    --info: #1E9FF2;
+    --warning: #FF9149;
+    --danger: #FF4961;
+    --light: #BABFC7;
+    --dark: #464855;
+    --ug: #153d6f;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: 'Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    --font-family-monospace: 'Quicksand',Georgia,'Times New Roman',Times,serif;
+}
+
+/*Preloader*/
+.preloader{
+    background: var(--white);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    justify-content: center;
+}
+
+.preloader-effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: rotate 1s infinite ease-in-out;
+}
+
+.preloader img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+}
+
+.fill{
+    height: 3.5px;
+    width: 150px;
+    display: flex;
+    background: #E5E5E5;
+    top: 55%;
+    right: 0;
+    left: 0;
+    bottom: 45%;
+    margin: auto;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.line{
+    position: absolute;
+    height: 3.5px;
+    width: 60px;
+    background: #9F8A5F;
+    border-radius: 20px;
+    animation: load infinite 2s;
+}
+
+
+@keyframes load {
+    0%{
+        transform: translateX(150%);
+    }
+
+    50%{
+        transform: translateX(0);
+    }
+
+   100%{
+       transform: translateX(150%);
+   }
+}
+
+
+/*Body Margin*/
+.body{
+    margin: 1rem;
+}
+
+/*Navbar*/
+.navbar{
+    position: fixed;
+    margin: 1rem;
+}
+
+
+
+
+
+
+/*Mobile Display*/
+@media screen and (max-width: 765px) {
+
+
+    /*Preloader Effect*/
+    .preloader img{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        margin: auto;
+        width: 250px;
+    }
+
+    .fill{
+        height: 3px;
+        width: 150px;
+        display: flex;
+        background: #E5E5E5;
+        top: 55%;
+        right: 0;
+        left: 0;
+        bottom: 45%;
+        margin: auto;
+        border-radius: 20px;
+        position: absolute;
+    }
+    
+    .line{
+        position: absolute;
+        height: 3px;
+        width: 60px;
+        background: #9F8A5F;
+        border-radius: 20px;
+        animation: load infinite 2s;
+    }
+
+    /*Body Margin*/
+    .body{
+       margin: 4px !important;
+    }
+
+    .container-nav{
+        width: 100vw;
+    }
+
+    .navbar{
+        display: inline-block;
+        position: fixed;
+        margin: .5rem;
+    }
+
+    .logo img{
+        width: 200px;
+        cursor: pointer;
+    }
+
+    nav{
+        display: inline;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    ul.primary-menu{
+        display: inline-block;
+        list-style-type: none;
+        background: var(--grey);
+        width: 50vw;
+        margin: 0 2px 0 2px;
+        left: 5rem;
+    }
+
+    .primary-menu a{
+        color: var(--black);
+        text-decoration: none;
+        font-size: small;
+        font-family: "Lato";
+    }
+
+
+    
+}
+
+
+
+
+/*Tablet Display*/
+@media screen and (min-width:766px) and (max-width: 1023px) {
+    
+
+    
+    /*Preloader Effect*/
+    .preloader img{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        margin: auto;
+        width: 250px;
+    }
+
+    .fill{
+        height: 3px;
+        width: 150px;
+        display: flex;
+        background: #E5E5E5;
+        top: 55%;
+        right: 0;
+        left: 0;
+        bottom: 45%;
+        margin: auto;
+        border-radius: 20px;
+        position: absolute;
+    }
+    
+    .line{
+        position: absolute;
+        height: 3px;
+        width: 60px;
+        background: #9F8A5F;
+        border-radius: 20px;
+        animation: load infinite 2s;
+    }
+
+    
+    /*Body Margin*/
+    .body{
+        margin: 1rem !important;
+    }
+
+
+    .container-nav{
+        width: 100vw;
+    }
+
+    .navbar{
+        display: inline-block;
+        position: fixed;
+        margin: 1rem;
+    }
+
+    .logo img{
+        width: 250px;
+    }
+
+
+
+
+
+}

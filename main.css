@@ -48,7 +48,7 @@ title{
 }
 
 body{
-    background-image: url(/loginbackground1.jpg);
+    background-image: url(/loginbackground1.jpg) ;
     width: 100%;
     height: 100%;
     display: block;
@@ -58,7 +58,7 @@ body{
     position: fixed;
     overflow: none;
     object-fit: cover;
-    background-position: 50% 50%;
+    background-position: fixed ;
     /*animation: zoom 5s infinite alternate;*/
     left: 0;
     top: 0;
