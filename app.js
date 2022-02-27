@@ -30,4 +30,29 @@ function closeGroup() {
 var about = document.getElementsByClassName("drop-downs");
 var group = document.getElementsByClassName("pop-down");
 
-PictureInPictureWindow.style.overflow = "none";
+
+//Accordion Button
+
+document.querySelectorAll(".accordion_button").forEach(button => {
+    button.addEventListener("click", () => {
+        // const accordionContent = button.nextElementSibling;
+
+        button.classList.toggle('accordion_button-active');
+
+        // if(button.classList.contains("accordion_button-active")){
+        //     accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+        // } 
+        // else{
+        //     accordionContent.style.maxHeight = 0;
+        // }
+    })
+})
+
+
+//Enquire Tab Dropdown
+function openTab() {
+    document.querySelector('.enquire').style.display = "block";
+}
+function closeTab() {
+    document.querySelector('.enquire').style.display = "none";
+}
