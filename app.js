@@ -1,4 +1,4 @@
-/This s single lie comment that i will be deleting anytime so
+/This s single lie comment that i will be deleting anytime 
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
