@@ -1,4 +1,4 @@
-/This s single lie comment that i will 
+/This s single lie comment that i will
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
