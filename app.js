@@ -1,3 +1,4 @@
+//This s single line comment that i will be deleting anytime soon
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
