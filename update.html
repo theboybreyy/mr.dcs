@@ -13,8 +13,11 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/update.css">
 
+  <!--Playfair Display Font-->
+
     <!--Font Awesome Link-->
     <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
   
@@ -37,8 +40,15 @@
         </div>
     </div>
 
+     <!--Scroll Indicator-->
+     <section>
+      <div class="scroll-indicator">
+        <div class="progress">
+          
+        </div>
+     </section>
 
-    <div class="body">
+    <div class="body"> 
 
       <!--Navbar-->
           <nav>
@@ -49,6 +59,7 @@
               <a href="#" class="active">Home</a>
               <a href="#" onclick="openAbout()">About</a>
               <a href="#" onclick="openGroup()">Join Group</a>
+              <a href="#" onclick="darkMode()"><span class="toggle-dark-mode"><i class="fa-solid fa-moon"></i></span></a>
               <a href="#" class="cta" onclick="openTab()">Enquire</a>
             </div> 
 
@@ -64,7 +75,7 @@
 
 
      <!--Dropdown Section-->
-      <section>
+      <section class="about-dd">
         <div class="drop-downs">
           <div class="content">
             <div class="about">
@@ -180,6 +191,8 @@
 
             <br>
             <div class="about">
+
+              </div>
               <div class="caption">
                 <h4>Information Technology</h4>
               </div>        
@@ -308,6 +321,15 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sed nostrum doloribus obcaecati recusandae ab illo atque, nemo aliquam est voluptatibus quae incidunt animi necessitatibus expedita omnis dolore quisquam labore.</p>
             </div>  
 
+            <div class="social-nav">
+              <i class="fa-brands fa-telegram"></i>
+              <a href="https://github.com/kevin2-cyber" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/ug.compssa/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://chat.whatsapp.com/Bs2LtdLuXYO4LHoA10kw3Z" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              <i class="fa-brands fa-figma"></i>
+              <i class="fa-brands fa-behance"></i>
+            </div>
+
             <div class="dcs-logo">
               <img src="/ddcs.jpg" width="30px" onclick="closeGroup()" height="30px" alt="">
             </div>
@@ -340,15 +362,71 @@
             </div>  
 
             <div class="social-nav">
-              <i class="fa-solid fa-google"></i>
-              <i class="fa-solid fa-google"></i>
-              <i class="fa-solid fa-"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-apple"></i>
+              <i class="fa-solid fa-envelope"></i>
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-solid fa-code"></i>
+            </div>
+
+            <div class="footer">
+              <p>
+                <span>Copyright &copy; DCS 2022</span>
+              </p>
             </div>
 
           </div>
         </div>
       </section>
 
+      <!--Hero Section-->
+      <section class="hero">
+        <div class="main">
+
+          <div class="into">
+              <!--Card -->
+              <div class="circle">
+                <span></span>
+              </div>
+              <div class="loop">
+                <div class="card">
+                  <div class="ccta"><img src="/photo_2022-01-26_23-54-34.jpg" alt="" width="30" height="30"></div>
+                  <div class="content">
+                    <h4><span>COMPUTER SCIENCE DEPARTMENT</span></h4>
+                    <P>Manual Registration Portal</P>
+                    <P>Click On the Button to Proceed</P>
+                  </div>
+                </div>
+  
+              </div>
+          </div>
+
+           <!--Open Form Button-->
+           <button class="register">Register</button>
+
+        </div>
+      </section>
+
+      
+        <!--Alert Message-->
+      <div class="alert">
+        <i class="fa-solid fa-exclamation-circle"></i>
+        <div class="msg-container">
+          <span class="msg">Alert: Invalid user information entered!</span>
+        </div>
+        <div class="close-btn">
+          <i class="fa-solid fa-close"></i>
+        </div>
+      </div> 
+  
+
+
+      <!--MultiStep Form-->
+      <div class="form-container">
+
+      </div>
       
 
 

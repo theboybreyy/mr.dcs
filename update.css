@@ -34,13 +34,16 @@
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: "Playfair Display",'Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
     --font-family-monospace: 'Quicksand',Georgia,'Times New Roman',Times,serif;
+    
+
+    --background: var(--grey);
+    --foreground: var(--secondary);
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
@@ -50,11 +53,13 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    user-zoom: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*Preloader*/
 .preloader{
-    background: var(--white);
+    background: var(--background);
     left: 0;
     top: 0;
     height: 100%;
@@ -180,7 +185,7 @@ nav img{
     border-radius: 10px;
     margin-bottom: 5px;
     position: relative;
-    background-color: var(--black);
+    background-color: var(--foreground);
     z-index: 1;
     transform-origin: 0 0;
     transition: 0.4s;
@@ -220,7 +225,7 @@ nav img{
 }
 
 .menu a{
-    color: var(--black);
+    color: var(--foreground);
     margin: 0 8px;
     font-weight: 600;
     text-decoration: none;
@@ -230,12 +235,12 @@ nav img{
 }
 
 .menu a:hover{
-    background-color: var(--white);
-    border: 2px solid black;
+    background-color: var(--background);
+    border: 2px solid var(--foreground);
 }
 
 .menu a:focus-within{
-    border-bottom: 2px solid var(--black);
+    border-bottom: 2px solid var(--foreground);
     border-radius: 0;
 }
 
@@ -248,14 +253,14 @@ nav img{
 .menu .cta:hover{
     border: 2px solid var(--brown);
     background-color: var(--ug) !important;
-    color: white;
+    color: var(--background);
     scale: .8;
 }
 
 .menu .cta:focus-within{
     border: 2px solid var(--brown);
     background-color: var(--ug) !important;
-    color: white;
+    color: var(--background);
     border-radius: 15px 0 15px 0;
 }
 
@@ -265,8 +270,8 @@ nav img{
     left: 0%;
     top: 0% !important;
     height: 100vh;
-    width: 30vw;
-    background: var(--orange) url(/main_bgr.png);
+    width: 40vw;
+    background: var(--orange) url(/hero-icon-bg.svg);
     background-blend-mode: multiply;
     padding: 2rem;
     z-index: 111;
@@ -279,7 +284,7 @@ nav img{
 
 @keyframes left-show {
     0%{
-        transform: translateX(-30rem);
+        transform: translateX(-30rem)2;
     }
     100%{
         transform: translateX(0);
@@ -307,7 +312,7 @@ nav img{
     outline: none;
     cursor: pointer;
     background: #333333;
-    color: #FFFFFF;
+    color: var(--background);
     text-align: left;
     transition: background .2s;
 }
@@ -347,7 +352,7 @@ nav img{
 
 .accordion_content{
     padding: 0 15px;
-    background-color: #eee;
+    background-color: var(--background);
     display: none;
     overflow: auto;
 }
@@ -355,10 +360,26 @@ nav img{
     text-align: right;
     text-transform: capitalize;
     padding: 5px;
-    color: var(--white);
+    color: var(--background);
+    cursor: pointer;
+}
+.caption h4:hover{
+    color: var(--ug);
 }
 .caption h3{
     text-align: center;
+    font: bold;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.8;
+    user-select: none;
+    color: var(--ug);
+    font-size: large;
+    cursor: pointer;
+}
+
+.caption h3:hover{
+    color: var(--background);
 }
 
 .accordion_content dd{
@@ -381,10 +402,29 @@ nav img{
 
 .logo-cta img{
     display: block;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin: 20px auto;
+    left: 20%;
     cursor: pointer;
 }
+
+/*Scroll Indicator*/
+section .scroll-indicator:nth-child(1){
+    width: 100%;
+    height: 2px;
+    background: var(--background);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.progress {
+    width: 0%;
+    height: 2px;
+    background: var(--orange);
+}
+
 
 /*Join Group Effect*/
 .pop-down{
@@ -400,9 +440,24 @@ nav img{
     padding: 2rem;
     overflow: hidden;
     bottom: 2rem;
-    background-color: var(--white);
+    background: var(--background) url(/main_bgr.png);
+    background-blend-mode: multiply;
     animation: pop-down .6s ease-in-out;
     border-radius: 0 0 15px 0 ;
+    color: #777;
+    font-weight: bold;
+}
+
+.pop-down .caption h4{
+    text-align: center;
+    color: var(--warning);
+    user-select: none;
+    cursor: pointer;
+}
+
+.pop-down .social-nav i:hover{
+    color: var(--warning);
+
 }
 
 @keyframes pop-down {
@@ -415,11 +470,17 @@ nav img{
     
 }
 
+.pop-down .social-nav a{
+    text-decoration: none;
+    color: #777;
+}
+
 .pop-down img{
     border-radius: 50%;
     margin-left: 30rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     cursor: pointer;
+    position: fixed;
 }
 
 /*Enquire Tab Dropdown*/
@@ -432,18 +493,24 @@ nav img{
     padding: 2rem;
     z-index: 111;
     position: fixed;
-    background-color: var(--white);
+    background: var(--background) url(/great-hall-artwork.png) no-repeat;
+    background-blend-mode: multiply;
     border: 2px solid var(--brown);
+    background-position: center;
     border-radius:  15px 0 15px 0;
     animation: flow .6s ease-in;
     overflow: hidden;
     scroll-behavior: smooth;
     display: none;
+    font-weight: 600;
+    color: #777;
 }
 
+
 .enquire .tab-content .caption h4{
-    color: var(--black) !important;
+    color: var(--foreground) !important;
     text-align: left;
+    font-weight: bold !important;
 }
 
 @keyframes flow {
@@ -476,7 +543,7 @@ nav img{
     border-radius: 10px;
     margin-bottom: 5px;
     position: relative;
-    background-color: var(--black);
+    background-color: var(--foreground);
     transform-origin: 0 0;
     z-index: 1;
     transition: .4s;
@@ -492,6 +559,257 @@ nav img{
 }
 
 
+/*Social Nav*/
+.social-nav{
+    display: block;
+    justify-content: space-between;
+    height: 10px;
+    cursor: pointer;
+}
+
+.social-nav i{
+    padding: 5px;
+    height: 10px;
+    margin: 10px;
+}
+
+.social-nav i:hover{
+    transform: scale(.95) .2s ease-in-out;
+    color: var(--brown);
+
+}
+
+/*Footer*/
+.footer{
+    display: block;
+    position: fixed;
+    margin: 40px auto;
+    padding: 10px 20px;
+    left: 68%;
+}
+
+/*Dark Mode*/
+.darkMode{
+    --background: var(--foreground);
+    --foreground: var(--background)
+}
+
+
+
+/*Main Container*/
+.main{
+    width: 100vw;
+    height: 90vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+.loop{
+    background-color: transparent;
+}
+.main .card{
+    height: 120px;
+    padding: 20px;
+    background: var(--background);
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    position: fixed;
+    left: 55%;
+    top: 55%;
+    display: flex;
+    border: none;
+    border-radius: 0 0 20px;
+    opacity: .9;
+    border-bottom: var(--background) 2px solid;
+    border-top: var(--background) 2px solid;
+    border-right: var(--background) 2px solid;
+    border-left: var(--orange) 2px solid;
+    animation: lin linear .4s ;
+    position: fixed;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+
+@keyframes lin {
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+
+*/
+.card .content{
+    padding: 2px;
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    font-family: 'Lato';
+}
+
+.card .content p:nth-child(3){
+    font-size: small;
+}
+
+.card .content h4 span{
+    color: #777;
+    font-weight: 700;
+}
+
+.into{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+
+
+.register{
+    width: 300px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: var(--orange);
+    color: var(--background);
+    font-family: 'Montserrat';
+    outline: none;
+    border: none;
+    margin: 10rem auto;
+    border-radius: 8px;
+    font-size: small;
+    cursor: pointer;
+    color: var(--black);
+    font-weight: bold;
+    position: fixed;
+    left: 60%;
+    top: 54%;
+    animation: buzz infinite 5s ;
+}
+
+@keyframes buzz {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-8px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    
+
+    
+}
+.register:hover{
+    color: var(--white);
+    background: #777;
+    transition: .4s ease-in-out;
+    transform: scale(.95);
+}
+
+.card .ccta img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    left: -1rem;
+    top: 3.5rem;
+    top: 0;
+    position: relative;
+}
+
+/*Alert Effect*/
+
+
+.alert{
+    background: #f8d7da;
+    padding: 1rem 2rem;
+    min-width: 20rem;
+    position: absolute;
+    height: 70px;
+    top: 0rem;
+    right: .5rem;
+    border-radius: 5px;
+    z-index: 9999;
+    border-left: 8px solid transparent;
+    border-color: var(--danger);
+    transform: translateY(-100%);
+}
+
+.alert .show{
+    animation: pane 1s ease forwards;
+}
+
+@keyframes pane {
+    0%{transform: translateY(-100%);}
+    25%{transform: translateY(25%);}
+    50%{transform: translateY(10%);}
+    75%{transform: translateY(25%);}
+    100%{transform: translateY(-100%);}
+}
+.alert .hide{
+    animation: slow 1s ease forwards;
+}
+
+@keyframes slow {
+    0%{transform: translateY(-100%);}
+    25%{transform: translateY(25%);}
+    50%{transform: translateY(10%);}
+    75%{transform: translateY(25%);}
+    100%{transform: translateY(-100%);}
+}
+
+.fa-exclamation-circle{
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #721c24;
+    font-size: 1.5rem;
+}
+
+.msg-container{
+    padding: .8rem 1rem;
+}
+.msg{
+    padding: .8rem 2rem;
+    font-size: medium;
+    text-align: center;
+    line-height: 1.8;
+    margin: 1rem auto;
+    bottom: -1.5rem !important;
+    color: #721c24;
+}
+
+.close-btn{
+    position: absolute;
+    right: 0;
+    top: 0rem;
+    bottom: 2rem;
+    height: 100%;
+    background: transparent;
+    justify-content: center;
+    padding: 2rem 1.8rem;
+    cursor: pointer;
+    align-items: center;
+    margin: 2px solid;
+}
+
+.close-btn:hover{
+    background: #f3a1a7;
+    opacity: .6;
+}
+
+.close-btn i{
+    color: #721c24;
+    font-size: 1.5rem;
+}
 
 
 
