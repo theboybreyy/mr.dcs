@@ -57,7 +57,7 @@ function openTab() {
 function closeTab() {
     document.querySelector('.enquire').style.display = "none";
 }
-<<<<<<< HEAD
+
 
 //Scroll Indicator
 
@@ -171,7 +171,3 @@ const menu = document.querySelector(".menu");
     }
  })
 
-
- //
-=======
->>>>>>> 0921320599e88c560d32d25231b781d1f04e1d76
