@@ -1,4 +1,4 @@
-This is just a single line comment that
+This is just a single line comme
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
