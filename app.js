@@ -1,4 +1,4 @@
-//This is just a single line comment that i
+This is just a single line comment that i
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
