@@ -1,4 +1,4 @@
-his is just a 
+his is just a
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
