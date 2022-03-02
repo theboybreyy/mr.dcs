@@ -624,10 +624,7 @@ section .scroll-indicator:nth-child(1){
     border: none;
     border-radius: 0 0 20px;
     opacity: .9;
-    border-bottom: var(--background) 2px solid;
-    border-top: var(--background) 2px solid;
-    border-right: var(--background) 2px solid;
-    border-left: var(--orange) 2px solid;
+    border-left: var(--orange) 4px solid;
     animation: lin linear .4s ;
     position: fixed;
     font-weight: bold;
@@ -646,7 +643,8 @@ section .scroll-indicator:nth-child(1){
     }
 }
 
-*/
+.main .card:hover{}
+
 .card .content{
     padding: 2px;
     text-align: left;
@@ -810,9 +808,14 @@ section .scroll-indicator:nth-child(1){
     color: #721c24;
     font-size: 1.5rem;
 }
+ 
+/*This is the next time I am adding the multi step form to the page*/
+/*Multi Form*/
 
 
-
+.form-container{
+    display: none !important;
+}
 
 
 /*Special Display Feature*/
@@ -980,6 +983,19 @@ section .scroll-indicator:nth-child(1){
 
 
 
+
+    .body{
+        background: url(/about-img2.jpeg);
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .form-container{
+        
+    }
 
 
 }
