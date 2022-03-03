@@ -1,4 +1,4 @@
-//this is a single line commbe deleting 
+//this is a single line deleting 
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
