@@ -1,4 +1,4 @@
-//this is a single line dele
+//this is a single line del
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
