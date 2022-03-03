@@ -1,4 +1,4 @@
-
+//this is a single line comment that i will be deleting soon
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
