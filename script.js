@@ -1,4 +1,4 @@
-
+//This is just a single line commet that i am going to delte anytime soon
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
