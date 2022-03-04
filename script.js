@@ -1,4 +1,4 @@
-this is a single 
+this is a single
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
