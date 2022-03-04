@@ -1,4 +1,4 @@
-//this is a single lin
+//this is a single li
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
