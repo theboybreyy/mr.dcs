@@ -1,4 +1,4 @@
-//this is a single line d
+//this is a single lin
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
