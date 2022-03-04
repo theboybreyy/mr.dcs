@@ -1,4 +1,4 @@
-//This is just a single line co
+//This is jus
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
