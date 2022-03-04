@@ -1,4 +1,4 @@
-//This is just a single line commet that i am go
+//This is just a single line commet that i am g
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
