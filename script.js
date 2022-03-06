@@ -1,4 +1,4 @@
-//This is ju
+//This is j
 function openForm() {
     document.getElementById("myForm").style.display = "block";
   }
