@@ -1,4 +1,4 @@
-//This is a single line comment that i will be removing soon
+//This is a single line comment that i will be removing so
 
 
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
