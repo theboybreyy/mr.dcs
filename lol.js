@@ -1,3 +1,6 @@
+//This is a single line comment that i will be removing soon
+
+
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
 const toggleText = document.querySelector(".toggle-text");
 
