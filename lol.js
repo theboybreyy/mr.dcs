@@ -1,4 +1,4 @@
-//This is a single 
+//This is a sing
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
 const toggleText = document.querySelector(".toggle-text");
 
