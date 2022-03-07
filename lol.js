@@ -1,4 +1,4 @@
-//This is a single line comment that i will be 
+//This is a single line comment that i will be
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
 const toggleText = document.querySelector(".toggle-text");
 
