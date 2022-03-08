@@ -1,4 +1,4 @@
-/That is a fuckinh 
+/That is a fuckin
 
 
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
