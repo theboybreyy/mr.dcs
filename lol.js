@@ -1,5 +1,4 @@
-/That is a fuckin
-
+/That is a fucki
 
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
 const toggleText = document.querySelector(".toggle-text");
