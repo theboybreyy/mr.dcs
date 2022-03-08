@@ -1,4 +1,4 @@
-//this 
+//th
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
 const toggleText = document.querySelector(".toggle-text");
 
