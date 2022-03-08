@@ -1,4 +1,4 @@
-//That is a fuckinh boy
+//That is a fuckinh bo
 
 
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
