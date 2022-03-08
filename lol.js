@@ -1,4 +1,4 @@
-//this is just acomm
+//this is just acom
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
 const toggleText = document.querySelector(".toggle-text");
 
