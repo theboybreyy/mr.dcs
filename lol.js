@@ -1,4 +1,4 @@
-//This is hust a ingle line commen
+//This is hust a ingle line comme
 
 
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
