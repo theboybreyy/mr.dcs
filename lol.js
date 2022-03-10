@@ -1,4 +1,4 @@
-//This is hust a ingle line comment 
+//This is hust a ingle line comment l
 
 
 const toggleDarkMode = document.querySelector(".toggle-darkmode");
