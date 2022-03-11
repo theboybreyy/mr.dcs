@@ -1,5 +1,5 @@
 
-//This is a single line comme 
+//This is a single line comm 
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
