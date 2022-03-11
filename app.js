@@ -1,5 +1,5 @@
 
-//This is a single lin
+//This is a single l
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
