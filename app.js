@@ -1,5 +1,5 @@
 
-//This is a 
+//This is 
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
