@@ -1,5 +1,5 @@
 
-//This is a single line 
+//This is a single line
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
