@@ -1,5 +1,5 @@
 
-//This is a single line comment that I am addi
+//This is a single line comment that I am add
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
