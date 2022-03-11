@@ -1,5 +1,5 @@
 
-//This is a single 
+//This is a singl
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
