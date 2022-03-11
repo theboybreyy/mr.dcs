@@ -1,4 +1,4 @@
-//Preloader effects 
+//Preloader effects
 
 const preloader = document.querySelector(".preloader");
 window.addEventListener("load", () => {
