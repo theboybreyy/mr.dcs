@@ -1,1 +1,1 @@
-//this is a single
+//this is a singl
