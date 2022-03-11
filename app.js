@@ -1,4 +1,3 @@
-
 //Preloader effect
 
 const preloader = document.querySelector(".preloader");
