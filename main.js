@@ -57,3 +57,186 @@ const disableDarkMode = () => {
 };
 
 //A backup feature to create assistive mode for the user
+// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});// Save DarkMode History
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+// Add Event Listener
+toggleDarkMode.addEventListener("click", () => {
+  let darkMode = localStorage.getItem("darkMode");
+
+  if (darkMode !== "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+});
