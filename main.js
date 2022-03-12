@@ -31,3 +31,29 @@ var about = document.getElementsByClassName("drop-downs");
 var group = document.getElementsByClassName("pop-down");
 
 //Adding the Darkmode Feature
+const enableDarkMode = () => {
+  document.body.classList.add("darkmode");
+  toggleText.textContent = "Light";
+  localStorage.setItem("darkMode", "enabled");
+};
+
+// Disable Dark Mode
+const disableDarkMode = () => {
+  document.body.classList.remove("darkmode");
+  toggleText.textContent = "Dark";
+  localStorage.setItem("darkMode", null);
+};
+const enableDarkMode = () => {
+  document.body.classList.add("darkmode");
+  toggleText.textContent = "Orange";
+  localStorage.setItem("darkMode", "enabled");
+};
+
+// Enabling Dark Mode with different colors
+const disableDarkMode = () => {
+  document.body.classList.remove("darkMode");
+  toggleColor.textContent = "dark";
+  localStorage.setItem("darkMode", null);
+};
+
+//A backup feature to create assistive mode for the user
