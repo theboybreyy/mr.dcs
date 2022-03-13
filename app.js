@@ -32,7 +32,10 @@ var group = document.getElementsByClassName("pop-down");
 
 
 //Accordion Button
-
+let accordion = document.querySelector(".accordion");
+window.addEventListener("load", () => {
+    pr.style.display = "none";
+})
 document.querySelectorAll(".accordion_button").forEach(button => {
     button.addEventListener("click", () => {
         // const accordionContent = button.nextElementSibling;
