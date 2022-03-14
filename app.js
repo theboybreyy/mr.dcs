@@ -1,5 +1,4 @@
 //Preloader effect
-let constance = spinner;
 const preloader = document.querySelector(".preloader");
 window.addEventListener("load", () => {
     preloader.style.display = "none";
