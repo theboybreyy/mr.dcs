@@ -1,4 +1,4 @@
-//Preloader effect
+//Preloader effect before the website opens
 const preloader = document.querySelector(".preloader");
 window.addEventListener("load", () => {
     preloader.style.display = "none";
