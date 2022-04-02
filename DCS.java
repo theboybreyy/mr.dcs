@@ -21,6 +21,8 @@ public class TicketMachine
         
     }
 
+    
+
 
 public class TicketMachine
 {
