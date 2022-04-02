@@ -21,6 +21,7 @@ public class TicketMachine
         
     }
 
+
 public class TicketMachine
 {
     // The price of a ticket from this machine.
