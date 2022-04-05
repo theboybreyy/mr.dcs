@@ -12,7 +12,18 @@ public class TicketMachine
     /**
      * Create a machine that issues tickets of the given price.public class TicketMachine
 {public class TicketMachinepublic class TicketMachine
+{public class Ticke
+public class TicketMachine
 {public class TicketMachine
+{
+    // The price of a ticket from this machine.
+    private int price;
+    // The amount of money entered by a customer so far.
+    private int balance;
+    // The total amount of money collected by this machine.
+    private int total;
+    //The price is given to customers
+    tMachine
 {
     // The price of a ticket from this machine.
     private int price;
