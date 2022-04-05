@@ -10,7 +10,17 @@ public class TicketMachine
     //The price is given to customers
     
     /**
-     * Create a machine that issues tickets of the given price.
+     * Create a machine that issues tickets of the given price.public class TicketMachine
+{public class TicketMachine
+{
+    // The price of a ticket from this machine.
+    private int price;
+    // The amount of money entered by a customer so far.
+    private int balance;
+    // The total amount of money collected by this machine.
+    private int total;
+    //The price is given to customers
+    
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
