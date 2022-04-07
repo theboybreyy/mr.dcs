@@ -1,5 +1,5 @@
 public class TicketMachine
-{public
+{
 {
     // The price of a ticket from this machine.
     private int price;
