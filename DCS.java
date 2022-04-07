@@ -1,4 +1,4 @@
-public class Tic
+public clas
 {
     // The price of a ticket from this machine.
     private int price;
