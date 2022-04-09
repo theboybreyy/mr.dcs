@@ -1,4 +1,4 @@
-public class TicketMach
+public class TicketMachi
 Ghg
     // The amount of money entered by a customer so far.
     private int balance;
