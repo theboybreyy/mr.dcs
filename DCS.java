@@ -1,4 +1,4 @@
-public class TicketMachine
+public class TicketMac
 
     // The amount of money entered by a customer so far.
     private int balance;
