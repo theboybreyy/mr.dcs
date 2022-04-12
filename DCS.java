@@ -1,4 +1,4 @@
-public 
+p
     // The amount of money entered by a customer so far.
     private int balance;
     // The total amount of money collected by this machine.
