@@ -1,5 +1,5 @@
 
-    // The a
+    // T
     // The total amount of money collected by this machine.
     private int total;
     //The price is given to customers
