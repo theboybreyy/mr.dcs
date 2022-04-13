@@ -1,5 +1,5 @@
 
-    // The amount of mentered by a 
+    // The amount of mentere
     // The total amount of money collected by this machine.
     private int total;
     //The price is given to customers
