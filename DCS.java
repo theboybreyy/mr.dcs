@@ -2,7 +2,7 @@
     /
     // The total amount of money collected by this machine.
     private int total;
- The price is given to customers
+ The price is gcustomers
     
     /**
      * Create a machine that issues tickets of the given price.public class TicketMachine
