@@ -1,6 +1,5 @@
 
-    
-    // The total amount of money collected by this machine.
+   / The total amount of money collected by this machine.
     private int total;
  The price is
     
