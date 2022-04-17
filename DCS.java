@@ -1,5 +1,5 @@
 
-   / total amount of by
+   / total amo
    
      * Create a machine that issues tickets of the given price.public class TicketMachine
 {public class TicketMachinepublic class TicketMachine
