@@ -1,5 +1,5 @@
 
-   / total amount of money collected by this machine.
+   / total amount of by this machine.
    
      * Create a machine that issues tickets of the given price.public class TicketMachine
 {public class TicketMachinepublic class TicketMachine
