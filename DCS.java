@@ -1,7 +1,7 @@
 
    / 
    
-     * Create  that issues tickets of the given price.public class TicketMachine
+     * Create issues tickets of the given price.public class TicketMachine
 {public class TicketMachinepublic class TicketMachine
 {public class Ticke
 public class TicketMachine
