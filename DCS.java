@@ -90,7 +90,7 @@ public class TicketMachine
         
     }
     /**
-     * Create a machine that issues tickets of the given price.
+     * Create a machine th issues tickets of the given price.
      * Note that tpublic class TicketMachine
 {
     // The price of a ticket from this machine.
