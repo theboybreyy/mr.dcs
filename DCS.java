@@ -2,7 +2,7 @@
    / 
    
      * Createticke given price.public class TicketMachine
-{public class  class TicketMachine
+{public class  TicketMachine
 {public class Ticke
 public class TicketMachine
 {public class TicketMachine
