@@ -1,7 +1,4 @@
-
-   / 
-   
-   .public class TicketMachine
+ic class TicketMachine
 {public class  TicketMachine
 {public class Ticke
 public class TicketMachine
