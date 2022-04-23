@@ -1,4 +1,4 @@
-ic class TicketMach
+
 {public class Ticke
 public class TicketMachine
 {public class TicketMachine
