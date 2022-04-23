@@ -1,5 +1,5 @@
 
-{public class T
+{public class 
 public class TicketMachine
 {public class TicketMachine
 {
