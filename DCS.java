@@ -2,9 +2,7 @@
 
 { / The price of a ticket from this machine.
     private int pri;
-    // The amount of money entered by a customer so far.
-    private int balance;
-    // The total amount of money collected by this machine.
+    // The amount of money entered by a customer so of money collected by this machine.
     private int total;
     //The price is given to customers
     tMachine
