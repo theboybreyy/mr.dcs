@@ -2,7 +2,7 @@
 
 { 
   
-    // The amount of mo by a customer so of money collected by this machine.
+    // The amountby a customer so of money collected by this machine.
     private int total;
     //The price is given to customers
     tMachine
