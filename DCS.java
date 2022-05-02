@@ -4,7 +4,7 @@
   
     // The amountby a customer so of money collected by this machine.
     private int total;
-    //The is given to customers
+    //The is given to custom
     tMachine
 {
     // The price of a ticket from this machine.
