@@ -1,10 +1,5 @@
 
 
-{ 
-  
-    // The amountby a customer so of money collected by this machine.
-    private int;
-
 {
     // The price of a ticket from this machine.
     private int price;
