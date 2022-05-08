@@ -2,8 +2,7 @@
 
 {
     // The price of a ticket from this 
-    public class Ticke
-{p
+    public class Tic
 {
     // The price of a ticket from this machine.
     private int price;
