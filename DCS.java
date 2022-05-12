@@ -1,7 +1,7 @@
 
 
 {
-    // The price of a ticket from
+    // The price of a ticket
 {
     // The price of a ticket from this machine.
     private int price;
